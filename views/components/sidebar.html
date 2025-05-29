@@ -1,0 +1,42 @@
+<div class="sidebar-container">
+    <div class="sidebar-header">
+        <button id="new-chat-btn" class="new-chat-btn">
+            <i class="fas fa-plus"></i>
+            <span>Chat Baru</span>
+        </button>
+    </div>
+
+    <div class="sidebar-content">
+        <h3>Riwayat Chat</h3>
+        <div id="chat-history" class="chat-history">
+            <!-- Chat history will be dynamically populated here -->
+            <div class="empty-history-message">
+                Belum ada riwayat chat
+            </div>
+        </div>
+    </div>
+
+    <div class="sidebar-footer">
+        <button id="sidebar-collapse-btn" class="icon-btn collapse-btn" aria-label="Collapse Sidebar">
+            <i class="fas fa-chevron-left"></i>
+        </button>
+    </div>
+</div>
+
+<!-- Chat item template -->
+<template id="chat-item-template">
+    <div class="chat-item" data-id="">
+        <div class="chat-item-content">
+            <i class="fas fa-comment"></i>
+            <span class="chat-title"></span>
+        </div>
+        <div class="chat-actions">
+            <button class="chat-rename-btn" aria-label="Rename Chat">
+                <i class="fas fa-edit"></i>
+            </button>
+            <button class="chat-delete-btn" aria-label="Delete Chat">
+                <i class="fas fa-trash"></i>
+            </button>
+        </div>
+    </div>
+</template> 

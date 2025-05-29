@@ -1,0 +1,37 @@
+<div class="settings-header">
+    <h2>Pengaturan</h2>
+    <button id="close-settings-btn" class="close-modal-btn" aria-label="Close Settings">
+        <i class="fas fa-times"></i>
+    </button>
+</div>
+
+<div class="settings-content">
+    <div class="setting-item">
+        <label for="username-input">Nama Pengguna</label>
+        <input type="text" id="username-input" class="setting-input" placeholder="Masukkan nama kamu">
+        <div class="setting-description">Nama yang akan digunakan AI untuk menyapa kamu</div>
+    </div>
+
+    <div class="setting-item">
+        <label for="model-selection">Model AI</label>
+        <select id="model-selection" class="setting-input">
+            <option value="auto">Auto (Fallback)</option>
+            <option value="gemini">Gemini</option>
+            <option value="openai">OpenAI</option>
+            <option value="deepseek">DeepSeek</option>
+            <option value="groq">Groq</option>
+        </select>
+        <div class="setting-description">Model AI yang akan digunakan. Auto akan mencoba semua model dengan fallback otomatis.</div>
+    </div>
+
+    <div class="setting-actions">
+        <button id="reset-settings-btn" class="secondary-btn">
+            <i class="fas fa-undo"></i>
+            Reset
+        </button>
+        <button id="save-settings-btn" class="primary-btn">
+            <i class="fas fa-save"></i>
+            Simpan
+        </button>
+    </div>
+</div> 

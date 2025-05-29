@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayana AI Assistant</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="data:," />
+</head>
+<body>
+    <div class="app-container">
+        <aside id="sidebar" class="sidebar">
+            <!-- Sidebar content will be loaded dynamically -->
+        </aside>
+        
+        <main class="main-content">
+            <header id="header" class="header">
+                <!-- Header content will be loaded dynamically -->
+            </header>
+            
+            <section id="chatbox" class="chatbox">
+                <!-- Chatbox content will be loaded dynamically -->
+            </section>
+        </main>
+    </div>
+
+    <!-- Modals -->
+    <div class="overlay"></div>
+    
+    <div id="settings-modal" class="modal">
+        <div class="modal-content">
+            <div id="settings">
+                <!-- Settings content will be loaded dynamically -->
+            </div>
+        </div>
+    </div>
+    
+    <div id="about-modal" class="modal">
+        <div class="modal-content">
+            <div class="about-content">
+                <h2>Tentang Ayana</h2>
+                <p>Ayana adalah asisten AI berbasis chatbot yang menggunakan berbagai model AI canggih untuk membantu pengguna dengan jawaban yang cerdas dan informatif.</p>
+                <p>Aplikasi ini mendukung berbagai model AI seperti Gemini, DeepSeek, dan Groq dengan sistem fallback otomatis, kemampuan analisis gambar, dan beragam pengaturan yang fleksibel.</p>
+                <button id="close-about-btn" class="close-modal-btn secondary-btn">Tutup</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Templates -->
+    <template id="chat-item-template">
+        <div class="chat-item">
+            <div class="chat-item-content">
+                <i class="fas fa-message"></i>
+                <div class="chat-title">Chat title</div>
+            </div>
+            <div class="chat-actions">
+                <button class="chat-rename-btn" aria-label="Rename Chat">
+                    <i class="fas fa-pen"></i>
+                </button>
+                <button class="chat-delete-btn" aria-label="Delete Chat">
+                    <i class="fas fa-trash"></i>
+                </button>
+            </div>
+        </div>
+    </template>
+
+    <!-- Scripts -->
+    <script src="js/input-message.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html> 

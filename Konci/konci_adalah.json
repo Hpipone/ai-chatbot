@@ -1,0 +1,18 @@
+{
+  "gemini": {
+    "konci_rahasia": "AIzaSyB2SPCk8mYFBPYn-i53Wsx75hWgAgMdSkE",
+    "kuncine_url": "https://generativelanguage.googleapis.com/v1/models/gemini-2.0-flash:generateContent"
+  },
+  "deepseek": {
+    "konci_rahasia": "sk-ed816dc16f014108a9f9be16208bda7a",
+    "kuncine_url": "https://api.deepseek.com/v1/chat/completions"
+  },
+  "groq": {
+    "konci_rahasia": "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",
+    "kuncine_url": "https://api.groq.com/openai/v1/chat/completions"
+  },
+  "openai": {
+    "konci_rahasia": "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",
+    "kuncine_url": "https://api.openai.com/v1/chat/completions"
+  }
+} 
