@@ -1,6 +1,6 @@
 # Ayana AI Chatbot
 
-Aplikasi chatbot AI dengan dukungan multi-model (Gemini, DeepSeek, Groq) dan sistem fallback otomatis.
+Aplikasi chatbot AI dengan dukungan multi-model dan sistem fallback otomatis.
 
 ## Fitur
 
@@ -17,8 +17,8 @@ Aplikasi chatbot AI dengan dukungan multi-model (Gemini, DeepSeek, Groq) dan sis
 ```
 .
 ├── public/                   # File statis
-│   ├── js/                   # JavaScript klien
-│   │   └── script.js         # Script utama klien
+│   ├── js/                   # JavaScript
+│   │   └── script.js         # Script utama 
 │   ├── css/                  # Stylesheet
 │   └── script/               # Script server
 │       ├── aiService.js      # Layanan AI
@@ -27,11 +27,8 @@ Aplikasi chatbot AI dengan dukungan multi-model (Gemini, DeepSeek, Groq) dan sis
 │       └── routes.js         # Rute API
 ├── views/                    # Template HTML
 │   └── components/           # Komponen UI
-├── oi1/                      # Komponen input message
-├── settings0/                # Konfigurasi sistem
 ├── uploads/                  # File yang diupload
 ├── logs/                     # Log aplikasi
-├── kunci_jawi.json           # Kunci API (jangan commit ke repo)
 ├── server.js                 # Entry point aplikasi
 └── package.json              # Dependensi npm
 ```
