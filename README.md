@@ -30,19 +30,18 @@ Aplikasi chatbot AI dengan dukungan multi-model dan sistem fallback otomatis.
 ├── uploads/                  # File yang diupload
 ├── logs/                     # Log aplikasi
 ├── server.js                 # Entry point aplikasi
-└── package.json              # Dependensi npm
 ```
 
 ## Instalasi
 
 1. Clone repositori
 2. Install dependensi: `npm install`
-3. Salin `kunci_jawi.example.json` ke `kunci_jawi.json` dan isi dengan API key Anda
+3. Salin `konci_jawi.example.json` ke `kuonci_jawi.json` dan isi dengan API key Anda
 4. Jalankan server: `npm start`
 
 ## Konfigurasi API
 
-File `kunci_jawi.json` digunakan untuk menyimpan kunci API. Format:
+File `konci_jawi.json` digunakan untuk menyimpan kunci API. Format:
 
 ```json
 {
@@ -60,12 +59,6 @@ File `kunci_jawi.json` digunakan untuk menyimpan kunci API. Format:
   }
 }
 ```
-
-## Pengembangan
-
-- Server: Node.js + Express
-- Frontend: HTML, CSS, JavaScript (Vanilla)
-- Penyimpanan: LocalStorage untuk chat dan pengaturan
 
 ## Lisensi
 
