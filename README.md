@@ -12,26 +12,6 @@ Aplikasi chatbot AI dengan dukungan multi-model dan sistem fallback otomatis.
 - Penyimpanan chat lokal
 - Responsif untuk desktop dan mobile
 
-## Struktur Proyek
-
-```
-.
-├── public/                   # File statis
-│   ├── js/                   # JavaScript
-│   │   └── script.js         # Script utama 
-│   ├── css/                  # Stylesheet
-│   └── script/               # Script server
-│       ├── aiService.js      # Layanan AI
-│       ├── api.js            # Konfigurasi API
-│       ├── logger.js         # Utilitas logging
-│       └── routes.js         # Rute API
-├── views/                    # Template HTML
-│   └── components/           # Komponen UI
-├── uploads/                  # File yang diupload
-├── logs/                     # Log aplikasi
-├── server.js                 # Entry point aplikasi
-```
-
 ## Instalasi
 
 1. Clone repositori
