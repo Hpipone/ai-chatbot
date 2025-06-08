@@ -43,3 +43,7 @@ File `konci_jawi.json` digunakan untuk menyimpan kunci API. Format:
 ## Lisensi
 
 MIT 
+
+
+## feel free to contribute or any
+tag me if you use this repo :)
